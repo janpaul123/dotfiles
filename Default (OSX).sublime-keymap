@@ -2,5 +2,7 @@
   { "keys": ["super+shift+r"], "command": "reveal_in_side_bar" },
   { "keys": ["super+shift+l"], "command": "side_bar_move" },
   { "keys": ["shift+alt+d"], "command": "set_setting", "args": { "setting": "draw_white_space", "value": "all" } },
-  { "keys": ["shift+alt+a"], "command": "set_setting", "args": { "setting": "draw_white_space", "value": "selection" } }
+  { "keys": ["shift+alt+a"], "command": "set_setting", "args": { "setting": "draw_white_space", "value": "selection" } },
+  { "keys": ["super+alt+i"], "command": "import_js", "args": { "command": "word" } },
+  { "keys": ["super+alt+g"], "command": "import_js", "args": { "command": "goto" } },
 ]
